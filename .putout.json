@@ -1,0 +1,24 @@
+{
+  "printer": "putout",
+  "match": {
+    "src/**/*.ts": {
+      "taotie-remove-static-toggles": "on"
+    }
+  },
+  "rules": {
+    "typescript": "on",
+    "remove-unused-variables": "on"
+  },
+  "plugins": ["taotie-remove-static-toggles"],
+  "ignore": [
+    "**/node_modules",
+    "**/fixture",
+    "**/.nyc_output",
+    "**/coverage",
+    "**/dist",
+    "**/dist-dev",
+    "**/build",
+    "**/package-lock.json",
+    ".husky"
+  ]
+}

@@ -1,0 +1,13 @@
+# This is a Taotie configuration file
+
+# The default base branch to run Taotie on
+baseBranch: main
+
+# Execution command to run
+exec: yarn taotie:fix
+
+# Show interactive comment
+commentInteractive: false
+
+# Close the comment on issue dashboard
+commentClose: true
