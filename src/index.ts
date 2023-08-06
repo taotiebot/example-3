@@ -1,3 +1,13 @@
-import { f2 } from './common'
+import { f1, f2 } from './common'
 
-f2()
+const context = {
+  featureFlag: false
+}
+
+if (context.featureFlag) {
+  f2()
+  console.log(f2())
+} else {
+  f1()
+  console.log(f1())
+}
