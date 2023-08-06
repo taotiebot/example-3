@@ -7,7 +7,7 @@ baseBranch: main
 exec: yarn taotie:fix
 
 # Show interactive comment
-commentInteractive: false
+commentInteractive: true
 
 # Close the comment on issue dashboard
 commentClose: true
